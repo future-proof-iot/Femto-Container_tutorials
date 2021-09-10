@@ -7,13 +7,18 @@ Femto-Containers is a small virtual machine based on the Linux eBPF
 architecture. This makes it suitable for small applications hosted on
 microcontroller-type devices.
 
-- Tutorial 1
+- [Tutorial 1]
+
   This tutorial shows how to set up the toolchain and how to get started hosting
   Femto-Container applications on RIOT.
-- Tutorial 2
+
+- [Tutorial 2]
+
   This Tutorial shows somewhat more complex behaviour with a focus on how to
   pass context variables to the container and return values from the container
+
 - [Tutorial 3] (TODO)
+
   Tutorial 3 shows how to use bindings from the host operating system with
   Femto-Containers.
 
