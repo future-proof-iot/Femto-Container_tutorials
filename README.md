@@ -4,13 +4,15 @@ Femto-Containers are small containers hosting a virtual machine based on the Lin
 
 ## Open Source Implementation 
 
-This repository is an open source implementation which hosts femto-containers on the operating system RIOT. 
+This repository is an open source implementation which hosts femto-containers on the operating system [RIOT](https://github.com/RIOT-OS/RIOT/). 
 To start browsing through femto-containers source code, a good entry point is [here](https://github.com/bergzand/RIOT/tree/90c82c0cdf241b8c238f5d2946d5dfb519d8904b/examples/rbpf_sched).
 
 To download the source code and this tutorial, just open a terminal and enter the following commands:
 
 `git clone https://github.com/future-proof-iot/Femto-Container_tutorials.git`
+
 `git submodule init`
+
 `git submodule update`
 
 ## Hands-on Tutorials
