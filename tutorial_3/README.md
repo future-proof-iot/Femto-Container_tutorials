@@ -1,4 +1,4 @@
-# Tutorial 3
+# Tutorial 3 (in-progress)
 
 This tutorial shows one of the other ways to interact with the operating system,
 through function bindings. Function bindings provide the virtual machine with an
@@ -11,4 +11,4 @@ execution of the virtual machine.
 - Store read-only data in the application
 
 ## Steps
-
+- (Work-in-progress, stay tuned)
