@@ -15,16 +15,48 @@ To download the source code and this tutorial, just open a terminal and enter th
 
 `git submodule update`
 
+
+### Toolchain setup
+
+These preliminary steps are required to setup your system for the tutorials.
+
+#### Setup for eBPF/rBPF
+To compile the BPF code for the Femto-Containers the following applications and
+libraries are required:
+
+- LLVM
+- Clang
+- Python 3.6 or higher
+- [pyelftools](https://github.com/eliben/pyelftools)
+
+Please ensure that these are installed and verify that llvm supports generating
+eBPF code by executing:
+
+```Console
+$ llc --version
+```
+
+Check that "bpf" is in the resulting list of registered targets.
+
+#### Setup for RIOT
+Please follow the steps from the [RIOT
+documentation](https://doc.riot-os.org/getting-started.html) to get started with
+this. The toolchain setup can be verified by compiling a simple RIOT example
+such as the
+[Hello World](https://github.com/RIOT-OS/RIOT/tree/master/examples/hello-world)
+example.
+
+
+
 ## Hands-on Tutorials
 
 A number of tutorials are available below to get familiar with the
 Femto-Container implementation in RIOT.
 
 
-
 - [Tutorial 1]
 
-  This tutorial shows how to set up the toolchain and how to get started hosting
+  This tutorial shows how to get started hosting
   Femto-Container applications on RIOT.
 
 - [Tutorial 2]
@@ -34,8 +66,7 @@ Femto-Container implementation in RIOT.
 
 - [Tutorial 3] (work-in-progress)
 
-  Tutorial 3 shows how to use bindings from the host operating system with
-  Femto-Containers.
+  Tutorial 3 shows how to use a femto-container to read sensor data and advertize it as a Bluetooth Low-Energy (BLE) service.
 
 - [Tutorial 4] (work-in-progress)
 

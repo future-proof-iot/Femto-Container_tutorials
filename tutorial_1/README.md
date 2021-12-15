@@ -6,45 +6,11 @@ loadable applications based on rBPF and Femto-Containers.
 
 ## Goals
 
- - Toolchain setup and checks
  - Compiling a first Femto-Containers application
  - Adding the applications to a small RIOT instance
  - Inspecting the application content
 
 ## Steps
-
-### Toolchain setup
-
-This step describes the required toolchain and applications required to compile
-and execute the tutorials presented here. At least required are a compiler and
-standard library for the target RIOT platform and the LLVM/Clang compiler to
-compile the Femto-Container code.
-
-First make sure that it is possible to compile a RIOT application for your
-target platform. Please follow the steps from the [RIOT
-documentation](https://doc.riot-os.org/getting-started.html) to get started with
-this. The toolchain setup can be verified by compiling a simple RIOT example
-such as the
-[Default](https://github.com/RIOT-OS/RIOT/tree/master/examples/default) or the
-[Hello World](https://github.com/RIOT-OS/RIOT/tree/master/examples/hello-world)
-example.
-
-To compile the eBPF code for the Femto-Containers the following applications and
-libraries are required:
-
-- LLVM
-- Clang
-- Python 3.6 or higher
-- [pyelftools](https://github.com/eliben/pyelftools)
-
-Please ensure that these are installed and verify that llvm supports generating
-eBPF code by executing:
-
-```Console
-$ llc --version
-```
-
-This must show "bpf" in the list of registered targets.
 
 ### Compiling the Femto-Container application
 
