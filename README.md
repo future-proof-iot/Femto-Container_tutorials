@@ -8,44 +8,9 @@ This repository is an open source implementation which hosts femto-containers on
 To start browsing through femto-containers source code, a good entry point is [here](https://github.com/bergzand/RIOT/tree/90c82c0cdf241b8c238f5d2946d5dfb519d8904b/examples/rbpf_sched).
 
 
-### Download \& Toolchain Setup
+### Preliminary Setup & Downloads
 
-To download the source code and this tutorial, just open a terminal and enter the following commands:
-
-`git clone https://github.com/future-proof-iot/Femto-Container_tutorials.git`
-
-`git submodule init`
-
-`git submodule update`
-
-These preliminary steps are required to setup your system for the tutorials.
-
-### Setup for eBPF/rBPF
-To compile the BPF code for the Femto-Containers the following applications and
-libraries are required:
-
-- LLVM
-- Clang
-- Python 3.6 or higher
-- [pyelftools](https://github.com/eliben/pyelftools)
-
-Please ensure that these are installed and verify that llvm supports generating
-eBPF code by executing:
-
-```Console
-$ llc --version
-```
-
-Check that "bpf" is in the resulting list of registered targets.
-
-### Setup for RIOT
-Please follow the steps from the [RIOT
-documentation](https://doc.riot-os.org/getting-started.html) to get started with
-this. The toolchain setup can be verified by compiling a simple RIOT example
-such as the
-[Hello World](https://github.com/RIOT-OS/RIOT/tree/master/examples/hello-world)
-example.
-
+Before you try the femto-container tutorials, you need to set up your system. For this, please complete the steps listed in the [setup guide](https://github.com/future-proof-iot/Femto-Container_tutorials/tree/main/setup).
 
 
 ## Hands-on Tutorials
