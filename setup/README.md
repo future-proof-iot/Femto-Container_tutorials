@@ -41,4 +41,4 @@ example.
 
 ### You're done!
 
-Now that you're all setup, you can return to the [femto-container tutorials](https://github.com/future-proof-iot/Femto-Container_tutorials) hands-on.
+Now that you're all setup, you can return to the [femto-container tutorials](https://github.com/future-proof-iot/Femto-Container_tutorials#hands-on-tutorials) hands-on.
