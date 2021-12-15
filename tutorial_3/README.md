@@ -3,13 +3,14 @@
 This tutorial shows other ways to interact with the operating system,
 through function bindings. Function bindings provide the virtual machine with an interface through which to interact with the host operating system during the execution of the virtual machine.
 
-This tutorial is under construction: for now it just shows how to use a femto-container to read sensor data and to advertize it as a Bluetooth Low-Energy (BLE) service.
+*Note*: This tutorial is under construction: for now it just shows how to use a femto-container to read sensor data and to advertize it as a Bluetooth Low-Energy (BLE) service.
 
 ## Goals
 
 - Compile and run the heart-rate and temperature sensor femto-container example
 - Show interaction through bindings
 - Store read-only data in the application
+- *(under construction)*
 
 ## Steps
 
@@ -30,13 +31,15 @@ From there, you can now go into the usual femto-container workflow:
 - compile the rBPF code hosted in the femtocontainer, which is located in the bpf/ directory `make -C bpf`
 - compile flash and run RIOT embarking the femto-container `BOARD=arduino-nano-33-ble make flash term`
 
-Your board is now flashed and should be operational. You can connect to your board via Bluetooth on your smartphone. For that we suggest using an app such as [nrfToolbox](https://play.google.com/store/apps/details?id=no.nordicsemi.android.nrftoolbox) and/or [nrfConnect](https://play.google.com/store/apps/details?id=no.nordicsemi.android.mcp)). To discover your board via the nrftoolbox app for instance, click on the heart rate icon and scan for your board which should appear at the end of the list.
+Your board is now flashed and should be operational. You can connect to your board via Bluetooth on your smartphone. For that we suggest using an app such as [nrfToolbox](https://play.google.com/store/apps/details?id=no.nordicsemi.android.nrftoolbox) and/or [nrfConnect](https://play.google.com/store/apps/details?id=no.nordicsemi.android.mcp)). 
 
-*Note*: there might be glitches, whereupon disconnecting/reconnecting the device from the smartphone app will help (and/or rebooting the board).
+To discover your board via the nrftoolbox app for instance, click on the heart rate icon and scan for your board which should appear at the end of the list.
 
-#### Femto-container logic
+*Note*: there might be small glitches, whereupon disconnecting/reconnecting the device from the smartphone app will help (and/or rebooting the board).
 
-To browse through the code hosted in the femto-containers, check the files `bpf/hrs_sens.c` and `bpf/temp_sens.c` which contain logic for the heart rate data and for the temperature data respectively.
+#### Borwsing femto-container code
+
+To browse through the code hosted in the femto-containers for this example, check the files `bpf/hrs_sens.c` and `bpf/temp_sens.c` which contain logic for the heart rate data and for the temperature data respectively.
 
 
 

@@ -7,6 +7,9 @@ Femto-Containers are small containers hosting a virtual machine based on the Lin
 This repository is an open source implementation which hosts femto-containers on the operating system [RIOT](https://github.com/RIOT-OS/RIOT/). 
 To start browsing through femto-containers source code, a good entry point is [here](https://github.com/bergzand/RIOT/tree/90c82c0cdf241b8c238f5d2946d5dfb519d8904b/examples/rbpf_sched).
 
+
+### Download \& Toolchain Setup
+
 To download the source code and this tutorial, just open a terminal and enter the following commands:
 
 `git clone https://github.com/future-proof-iot/Femto-Container_tutorials.git`
@@ -15,12 +18,9 @@ To download the source code and this tutorial, just open a terminal and enter th
 
 `git submodule update`
 
-
-### Toolchain setup
-
 These preliminary steps are required to setup your system for the tutorials.
 
-#### Setup for eBPF/rBPF
+### Setup for eBPF/rBPF
 To compile the BPF code for the Femto-Containers the following applications and
 libraries are required:
 
@@ -38,7 +38,7 @@ $ llc --version
 
 Check that "bpf" is in the resulting list of registered targets.
 
-#### Setup for RIOT
+### Setup for RIOT
 Please follow the steps from the [RIOT
 documentation](https://doc.riot-os.org/getting-started.html) to get started with
 this. The toolchain setup can be verified by compiling a simple RIOT example
@@ -61,12 +61,13 @@ Femto-Container implementation in RIOT.
 
 - [Tutorial 2]
 
-  This Tutorial shows somewhat more complex behaviour with a focus on how to
-  pass context variables to the container and return values from the container
+  This tutorial shows somewhat more complex behaviour with a focus on how to 
+pass context variables to the container and return values from the container
 
-- [Tutorial 3] (work-in-progress)
+- [Tutorial 3]
 
-  Tutorial 3 shows how to use a femto-container to read sensor data and advertize it as a Bluetooth Low-Energy (BLE) service.
+  This tutorial shows how to use a femto-container to read sensor data and advertize
+it as a Bluetooth Low-Energy (BLE) service.
 
 - [Tutorial 4] (work-in-progress)
 
