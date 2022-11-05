@@ -1,6 +1,6 @@
-# Tutorial 4 (in-progress)
+# Tutorial 4
 
-This tutorial will show how to update/launch a Femto-Container securely via the network, using SUIT metadata for end-to-end security and CoAP as transport.
+This tutorial shows how to update/launch a Femto-Container securely via the network, using SUIT metadata for end-to-end security and CoAP as transport.
 
 ## Goals
 
@@ -8,5 +8,5 @@ This tutorial will show how to update/launch a Femto-Container securely via the 
 - Show SUIT security
 
 ## Steps
-- (Work-in-progress, stay tuned)
+For this tutorial, please follow the steps described in this [artefact](https://github.com/future-proof-iot/middleware2022-femtocontainers/blob/main/README.md) published for the ACM Middleware 2022 Conference.
 
