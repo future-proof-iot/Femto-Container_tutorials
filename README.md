@@ -1,6 +1,9 @@
 # Femto-Containers
 
 Femto-Containers are small containers hosting a virtual machine based on the Linux eBPF architecture, running on microcontroller-type devices. This makes it a suitable tool for DevOps workflows with small applications deployed on low-power IoT devices.
+This [paper](https://arxiv.org/pdf/2210.03432.pdf) describes Femto-Containers in details. If you want to cite this work, please cite it as such: 
+
+*K. Zandberg, E. Baccelli, S. Yuan, F. Besson, JP Talpin. Femto-Containers: Lightweight Virtualization and Fault Isolation For Small Software Functions on Low-Power IoT Microcontrollers. In Proc. of 23rd ACM/IFIP MIDDLEWARE, Nov. 2022.*
 
 ## Open Source Implementation 
 
@@ -19,30 +22,13 @@ A number of tutorials are available below to get familiar with the
 Femto-Container implementation in RIOT.
 
 
-- [Tutorial 1]
+- [Tutorial 1] -- get started hosting Femto-Container applications on RIOT.
 
-  This tutorial shows how to get started hosting
-  Femto-Container applications on RIOT.
+- [Tutorial 2] -- engage into more complex behaviour, learn how to pass context/return variables to/from the container.
 
-- [Tutorial 2]
+- [Tutorial 3] -- use a femto-container to read sensor data and advertize it as a Bluetooth Low-Energy (BLE) service.
 
-  This tutorial shows somewhat more complex behaviour with a focus on how to 
-pass context variables to the container and return values from the container
-
-- [Tutorial 3]
-
-  This tutorial shows how to use a femto-container to read sensor data and advertize
-it as a Bluetooth Low-Energy (BLE) service.
-
-- [Tutorial 4] (work-in-progress)
-
-  Tutorial 4 shows secure low-power DevOps-style interaction over the network using Femto-Containers.
-
-## Further Reading & References
-
-This [paper](https://arxiv.org/pdf/2210.03432.pdf) describes Femto-Containers in details. If you want to cite this work, please cite it as such: 
-
-K. Zandberg, E. Baccelli, S. Yuan, F. Besson, JP Talpin. Femto-Containers: Lightweight Virtualization and Fault Isolation For Small Software Functions on Low-Power IoT Microcontrollers. In Proc. of 23rd ACM/IFIP MIDDLEWARE, Nov. 2022.
+- [Tutorial 4] -- secure low-power DevOps-style interaction using Femto-container updates over the network, with SUIT-compliant security. (Tutorial currently based on an a separate artefact published at ACM Middleware 2022).
 
 [Tutorial 1]: https://github.com/future-proof-iot/Femto-Container_tutorials/tree/main/tutorial_1
 [Tutorial 2]: https://github.com/future-proof-iot/Femto-Container_tutorials/tree/main/tutorial_2
