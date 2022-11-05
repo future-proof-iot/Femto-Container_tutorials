@@ -40,8 +40,9 @@ it as a Bluetooth Low-Energy (BLE) service.
 
 ## Further Reading & References
 
-This [preprint](https://arxiv.org/pdf/2106.12553.pdf) describes Femto-Containers in details.
-This [paper](https://arxiv.org/pdf/2011.12047.pdf) describes the rBPF interpreter and the porting of the eBPF instruction set to various microcontrollers.
+This [paper](https://arxiv.org/pdf/2210.03432.pdf) describes Femto-Containers in details. If you want to cite this work, please cite it as such: 
+
+K. Zandberg, E. Baccelli, S. Yuan, F. Besson, JP Talpin. Femto-Containers: Lightweight Virtualization and Fault Isolation For Small Software Functions on Low-Power IoT Microcontrollers. In Proc. of 23rd ACM/IFIP MIDDLEWARE, Nov. 2022.
 
 [Tutorial 1]: https://github.com/future-proof-iot/Femto-Container_tutorials/tree/main/tutorial_1
 [Tutorial 2]: https://github.com/future-proof-iot/Femto-Container_tutorials/tree/main/tutorial_2
