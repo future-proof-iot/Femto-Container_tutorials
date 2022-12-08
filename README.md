@@ -1,7 +1,7 @@
 # Femto-Containers
 
 Femto-Containers are small containers hosting a virtual machine based on the Linux eBPF architecture, running on microcontroller-type devices. This makes it a suitable tool for DevOps workflows with small applications deployed on low-power IoT devices.
-This [paper](https://arxiv.org/pdf/2210.03432.pdf) describes Femto-Containers in details. If you want to cite this work, please cite it as such: 
+This [paper](https://dl.acm.org/doi/pdf/10.1145/3528535.3565242) describes Femto-Containers in details. If you want to cite this work, please cite it as such: 
 
 *K. Zandberg, E. Baccelli, S. Yuan, F. Besson, JP Talpin. Femto-Containers: Lightweight Virtualization and Fault Isolation For Small Software Functions on Low-Power IoT Microcontrollers. In Proc. of 23rd ACM/IFIP MIDDLEWARE, Nov. 2022.*
 
