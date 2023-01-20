@@ -8,7 +8,7 @@ BOARD ?= native
 RIOTBASE ?= $(CURDIR)/../RIOT
 
 # Include the bpf module
-USEMODULE += bpf
+USEPKG += femto-container
 
 # Use the compiled increment.bin as binary object in the built
 BLOBS += fc/increment.bin

@@ -19,8 +19,8 @@
  */
 #include <stdio.h>
 
-#include "bpf.h"
 #include "blob/fc/increment.bin.h"
+#include "femtocontainer/femtocontainer.h"
 
 /* Pre-allocated stack for the virtual machine */
 static uint8_t _stack[512] = { 0 };
